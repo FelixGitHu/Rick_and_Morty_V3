@@ -1,0 +1,43 @@
+.divContains{
+
+    display:flex;
+    flex-wrap: wrap;
+    block-size: auto;
+    align-items:normal;
+    background-image: url(https://wallpaperaccess.com/full/3958034.jpg);
+    background-size: cover;
+    width: 50vh;
+    height: auto;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-evenly;
+    
+}
+.divContains h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(5, 129, 123);
+    display: inline;
+}
+.divContains h5{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(8, 50, 238);
+    display: inline;
+}
+.divContains span{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(182, 9, 9);
+    display: inline;
+    align-items: self-end;
+}
+.divContains button{
+    float:left;
+    position: relative;
+    top: -2px;
+    color:teal;
+    
+}

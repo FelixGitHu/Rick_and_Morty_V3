@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    background-position: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+
+.img{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.img:hover {
+    opacity: 0.3;
+  }
+
+
+
+.card{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .img {
+    opacity: 0.3;
+  }
+  
+  .card:hover {
+    opacity: 1;
+  }
+
+.boton{
+    position : absolute;
+    bottom: 10px;
+    color:pink;
+}
+
+.btn{
+  top: 10px;
+  right:10px;
+  position: absolute;
+}
+.closeButton{
+    
+  position : absolute;
+  top: 10px;
+  left: 1px;
+}
+
+.closeButton:hover{
+  background-color: green;
+  color: red;
+}
